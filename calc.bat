@@ -33,9 +33,11 @@ goto start
 :error
 echo !!! ZŁY WYBÓR !!!
  
-GOTO	start
+goto	start
 
 :2
 :3
 :4
 echo ten feature bedzie dostepny wkrotce
+
+goto start
