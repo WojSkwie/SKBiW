@@ -33,3 +33,19 @@ class Calculator:
             print("Sorry, char must be one of these: + - * /")
         else:
             print(math_operation[self.char](self.value1, self.value2))
+
+
+def main():
+    try:
+        first = float(input("First number: "))
+        second = float(input("Second number: "))
+    except ValueError:
+        sys.exit("Sorry! Not valid number")
+    oper = input("Math operation (character): ")
+    calc = Calculator(first, second, oper)
+    calc.calculate()
+
+
+if __name__ == "__main__":
+    main()
+
