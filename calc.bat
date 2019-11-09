@@ -29,3 +29,13 @@ set/p two="wybierz pierwsza cyfre "
 set /a w= %two% + %one%
 echo wynik = %w%
 goto start
+
+:error
+echo !!! ZŁY WYBÓR !!!
+ 
+GOTO	start
+
+:2
+:3
+:4
+echo ten feature bedzie dostepny wkrotce
