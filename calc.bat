@@ -1,5 +1,4 @@
 @echo off
-
 title OpenSystem v 0.5
 echo witaj w systemie
 
