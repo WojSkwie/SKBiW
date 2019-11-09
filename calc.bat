@@ -18,3 +18,14 @@ if %start% == 3 goto 3
 if %start% == 4 goto 4
  
 echo error #1- menu główne %date%  >>%homedrive%\system\priv\bledy.txt && goto error
+
+:1
+cls
+ 
+echo start) dodawanie
+set/p one="wybierz pierwsza cyfre "
+set/p two="wybierz pierwsza cyfre "
+ 
+set /a w= %two% + %one%
+echo wynik = %w%
+goto start
