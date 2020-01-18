@@ -1,0 +1,20 @@
+diff --git a/Index.html b/Index.html
+index 0b03233..08c6d97 100644
+--- a/Index.html
++++ b/Index.html
+@@ -22,7 +22,7 @@
+     
+     <div class="jumbotron bg-dark text-light jumbotron-fluid">
+       <div class="container">
+-        <h1 class="display-4">Systemy kontroli błędów i wersji</h1>
++        <h1 class="display-4">Zdrastie!</h1>
+         <p class="lead">Materiały do zajęć laboratoryjnych z przedmiotu Systemy kontroli błędów i wersji.</p>
+       </div>
+     </div>
+@@ -35,4 +35,4 @@
+         $("#year").text(new Date().getFullYear());
+     </script>
+ </body>
+-</html>
+\ No newline at end of file
++</html>
